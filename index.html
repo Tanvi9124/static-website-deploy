@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GreenLife</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+/* Navbar */
+nav {
+    background: #2e7d32;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    position: sticky;
+    top: 0;
+}
+
+nav h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    height: 90vh;
+    background: url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6') no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 50px;
+}
+
+.hero p {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #66bb6a;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Section */
+section {
+    padding: 60px 50px;
+    text-align: center;
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.card {
+    width: 30%;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+    <h1>GreenLife 🌱</h1>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Hero -->
+<div class="hero">
+    <div>
+        <h2>Grow Your Green World</h2>
+        <p>Plants • Fertilizers • Gardening Tools</p>
+        <button class="btn">Explore Now</button>
+    </div>
+</div>
+
+<!-- About -->
+<section id="about">
+    <h2>About Us</h2>
+    <p>GreenLife helps you create a greener and healthier environment with high-quality plants and gardening products.</p>
+</section>
+
+<!-- Services -->
+<section id="services">
+    <h2>Our Products</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6">
+            <h3>Indoor Plants</h3>
+            <p>Fresh and beautiful indoor plants for your home.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1492496913980-501348b61469">
+            <h3>Fertilizers</h3>
+            <p>Organic fertilizers for better plant growth.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1598514982431-8a3c4c9a7d6d">
+            <h3>Gardening Tools</h3>
+            <p>High-quality tools for your gardening needs.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: greenlife@gmail.com</p>
+    <p>Phone: +91 9876543210</p>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 GreenLife | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
